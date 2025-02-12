@@ -1,3 +1,5 @@
+package cheat_sheets;
+
 import java.util.*;
 import java.util.HashMap;
 
@@ -35,15 +37,15 @@ public class TimeSpaceComplexityCheatSheet {
         linkedList.removeLast();       // O(1)
         System.out.println("LinkedList after operations: " + linkedList);
 
-        // 4. HashMap
-        System.out.println("\nHashMap Operations:");
+        // 4. collections.HashMap
+        System.out.println("\ncollections.HashMap Operations:");
         Map<Integer, String> hashMap = new HashMap<>();
         hashMap.put(1, "one");    // Insert O(1)
         hashMap.put(2, "two");
         hashMap.put(3, "three");
-        System.out.println("HashMap: " + hashMap);
+        System.out.println("collections.HashMap: " + hashMap);
         hashMap.remove(2);  // Delete O(1)
-        System.out.println("HashMap after removal: " + hashMap);
+        System.out.println("collections.HashMap after removal: " + hashMap);
 
         // 5. HashSet
         System.out.println("\nHashSet Operations:");
@@ -113,7 +115,7 @@ Time Complexity Summary:
 - Array: O(1) for access, O(n) for insertion/deletion.
 - ArrayList: O(1) amortized for insertion at the end, O(n) for deletion and insertion at the middle.
 - LinkedList: O(1) for insertion and deletion at both ends, O(n) for access.
-- HashMap: O(1) for access, insertion, and deletion (amortized).
+- collections.HashMap: O(1) for access, insertion, and deletion (amortized).
 - HashSet: O(1) for insertion, deletion, and searching.
 - TreeMap: O(log n) for insertion, deletion, and access (sorted by key).
 - PriorityQueue (Min-Heap): O(log n) for insertion and deletion, O(1) for access to the minimum element.

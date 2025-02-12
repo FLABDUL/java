@@ -1,3 +1,5 @@
+package collections;
+
 import java.util.LinkedList;
 
 class LinkedListHashMap<K, V> {

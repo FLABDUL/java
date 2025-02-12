@@ -1,3 +1,5 @@
+package cheat_sheets;
+
 import java.util.*;
 import java.util.HashMap;
 
@@ -36,14 +38,14 @@ public class DataStructuresCheatSheet {
         linkedList.addLast(20);         // Add element at the end
         System.out.println("LinkedList: " + linkedList);
 
-        // 4. HashMap
-        // Declare and instantiate a HashMap with Integer keys and String values
+        // 4. collections.HashMap
+        // Declare and instantiate a collections.HashMap with Integer keys and String values
         // Ordered: No (does not guarantee order)
         // Distinct: Yes (keys must be distinct, values can be duplicated)
         Map<Integer, String> map = new HashMap<>();
         map.put(1, "one");    // Add key-value pair
         map.put(2, "two");
-        System.out.println("HashMap: " + map);
+        System.out.println("collections.HashMap: " + map);
 
         // 5. HashSet
         // Declare and instantiate a HashSet of Integers
@@ -118,7 +120,7 @@ public class DataStructuresCheatSheet {
     - **Arrays**: Ordered (maintains insertion order), Not distinct (allows duplicates)
     - **ArrayList**: Ordered (maintains insertion order), Not distinct (allows duplicates)
     - **LinkedList**: Ordered (maintains insertion order), Not distinct (allows duplicates)
-    - **HashMap**: Not ordered (no guaranteed order), Distinct (keys must be distinct, values can be duplicated)
+    - **collections.HashMap**: Not ordered (no guaranteed order), Distinct (keys must be distinct, values can be duplicated)
     - **HashSet**: Not ordered (no guaranteed order), Distinct (no duplicates allowed)
     - **TreeMap**: Ordered (sorted by keys in ascending order), Distinct (keys must be distinct, values can be duplicated)
     - **PriorityQueue**: Ordered (ordered based on the priority of elements), Not distinct (allows duplicates)
