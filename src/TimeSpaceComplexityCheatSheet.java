@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.HashMap;
 
 public class TimeSpaceComplexityCheatSheet {
 
@@ -36,7 +37,7 @@ public class TimeSpaceComplexityCheatSheet {
 
         // 4. HashMap
         System.out.println("\nHashMap Operations:");
-        HashMap<Integer, String> hashMap = new HashMap<>();
+        Map<Integer, String> hashMap = new HashMap<>();
         hashMap.put(1, "one");    // Insert O(1)
         hashMap.put(2, "two");
         hashMap.put(3, "three");

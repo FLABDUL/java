@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.HashMap;
 
 public class DataStructuresCheatSheet {
 
@@ -39,7 +40,7 @@ public class DataStructuresCheatSheet {
         // Declare and instantiate a HashMap with Integer keys and String values
         // Ordered: No (does not guarantee order)
         // Distinct: Yes (keys must be distinct, values can be duplicated)
-        HashMap<Integer, String> map = new HashMap<>();
+        Map<Integer, String> map = new HashMap<>();
         map.put(1, "one");    // Add key-value pair
         map.put(2, "two");
         System.out.println("HashMap: " + map);
